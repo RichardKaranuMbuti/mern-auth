@@ -5,6 +5,7 @@ import {
     register,
     updateProfile,
 } from '../controllers/userController';
+
 import { protect } from '../middleware/auth';
 
 const router = express.Router();
