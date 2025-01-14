@@ -218,8 +218,6 @@ db.repairDatabase();
 db.runCommand({ compact: "users" });
 ```
 
-[Rest of the content remains the same...]
-
 ### Request/Response Examples
 
 #### Register User
